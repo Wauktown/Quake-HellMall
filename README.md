@@ -1,3 +1,3 @@
 # Quake-Single
 
-Theme concept
+# Theme concept
