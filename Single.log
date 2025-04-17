@@ -1,0 +1,108 @@
+---- qbsp / ericw-tools 2.0.0-alpha9-1-g2d54b340 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\Users\chris\Downloads\quake-leveldesign-starterkit-20250210-windows\tools\ironwail\id1\maps\Quake-Single\Single-compile.map
+Output file: C:\Users\chris\Downloads\quake-leveldesign-starterkit-20250210-windows\tools\ironwail\id1\maps\Quake-Single\Single.bsp
+
+INFO: using built-in palette.
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \Q
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \.
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: Single-compile.map[line 4]: Unrecognised string escape - \p
+fs::addArchive: WARNING: archive '..\..\extras\quake\trenchbroom-quake-map-source\QUAKE101.WAD' not found
+fs::addArchive: WARNING: archive '..\..\extras\quake\trenchbroom-quake-map-source\prototype.wad' not found
+WARNING: No valid WAD filenames in worldmodel
+      7 entities
+      3 unique textures
+     21 texinfos
+    152 unique planes
+
+INFO: world extents calculated to 1480 units
+     90 brushes
+    534 sides
+     25 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+WARNING: unable to find texture __TB_empty
+WARNING: unable to find texture 128_green_3
+Processing hull 0...
+    90 SOLID brushes
+    90 brushes total
+    534 visible sides
+INFO: calculating BSP for 90 brushes with 534 sides
+     90 brushes
+    534 visible faces
+    352 nodes
+    352 expensive split nodes
+    353 leaves
+    207 EMPTY leafs
+    146 SOLID leafs
+    353 leafs total
+    17 max tree height
+    12 avg tree height
+    1,621 tree portals
+    206 outside leaves
+    0 detail filled leafs
+     90 brushes
+      6 visible faces
+    528 non-visible faces
+    621 nodes
+    610 non-visible nodes
+    621 expensive split nodes
+    622 leaves
+    351 EMPTY leafs
+    271 SOLID leafs
+    622 leafs total
+    17 max tree height
+    11 avg tree height
+    2,693 tree portals
+    350 outside leaves
+    0 detail filled leafs
+    2,693 tree portals
+    8 sides visible
+    8 makefaces
+    2 merged
+    615 nodes pruned
+    1 player-occupiable leaves
+    1 clusters of leaves
+    6 SOLID leafs
+    1 EMPTY leafs
+    7 leafs total
+    7 max tree height
+    4 avg tree height
+     6 faces optimized through MWT
+    12 triangles computed from MWT
+    12 edges
+     6 faces
+Processing hull 1...
+Processing hull 2...
+Writing Single.bsp as Quake BSP bsp29
+Wrote Single.bsp
+
+count   lump name    byte size 
+      1 models               64
+     17 planes              340
+      8 vertexes             96
+      6 nodes               144
+      6 texinfos            240
+      6 faces               120
+     12 clipnodes            96
+      2 leafs                56
+      6 marksurfaces         12
+     13 edges                52
+     24 surfedges            96
+      3 textures             16
+        lightdata             0
+        visdata               0
+        entdata             240
+
+0.063s seconds elapsed
+
+
